@@ -4,3 +4,8 @@ export interface BiometricCredential {
     counter: number
     userId: number
 }
+
+export interface BiometricRegistration {
+    userId: number
+    credential: BiometricCredential
+}
